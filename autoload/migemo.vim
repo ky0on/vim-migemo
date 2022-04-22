@@ -36,6 +36,7 @@ function! s:SearchDict2(name)
   endif
   if dict == ''
     for path in [
+          \ '/opt/homebrew/Cellar/cmigemo/20110227/share/migemo/',
           \ '/usr/local/share/migemo/',
           \ '/usr/local/share/cmigemo/',
           \ '/usr/local/share/',
